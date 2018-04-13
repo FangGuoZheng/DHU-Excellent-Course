@@ -239,8 +239,24 @@ a:focus {
     width: 100%
 }
 
+.footer-course {
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #333;
+    color: #ccc;
+    font-size: 12px;
+    position: absolute;
+    width: 100%
+}
+
 @media (max-width: 768px) {
     .navbar-university .navbar-collapse {
         margin-top: 0!important
     }
+}
+
+.video-pos{
+    margin-left: 18%;
 }
